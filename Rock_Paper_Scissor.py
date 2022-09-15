@@ -7,9 +7,11 @@ import pygame
 root = Tk()
 root.geometry("700x400")
 root.config(bg='#4C0033')
+
 pygame.mixer.init()
 pygame.mixer.music.load('req/pixelsound.mp3')
 pygame.mixer.music.play(loops=1000)
+
 
 l1 = Label(root,text='',font=('times',15))
 l2 = Label(root,text='',font=('times',15))
