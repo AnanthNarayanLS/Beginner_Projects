@@ -1,4 +1,6 @@
 
+#used iconarchive website for icons (.ico)
+
 import time
 from plyer import notification
 
